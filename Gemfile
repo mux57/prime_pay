@@ -6,7 +6,11 @@ git_source(:github) do |repo_name|
 end
 # for user authentication
 gem 'devise'
+# bootstrap gem
+# gem 'bootstrap', '~> 4.1.3'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+# jquery rails
+# gem 'jquery-rails'
 gem 'rails', '~> 5.1.6'
 # Use postgresql as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'
